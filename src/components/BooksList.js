@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchBooks } from "../redux/actions";
 import { setSortBy, setSortOrder, applySorting } from "../redux/reducer";
+import "regenerator-runtime/runtime";
 
 const BooksList = () => {
   const dispatch = useDispatch();
